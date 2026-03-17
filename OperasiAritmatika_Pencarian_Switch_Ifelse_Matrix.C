@@ -82,7 +82,8 @@ int main (){
     while (i>=1){
     printf("operasi matrix (1) atau pencarian matrix (2) = ");
     scanf ("%d",&pemilihanoperasi);
-        
+
+        //Operasi Aritamtika
         switch (pemilihanoperasi){
             case 1:
              if (matrixbaris1==matrixbaris2 && matrixkolom1==matrixkolom2){ 
@@ -181,7 +182,8 @@ int main (){
                 printf ("Kamu hanya bisa menggunakan operasi pencarian!\n");
             }
             break;
-            
+
+            //Pencarian Matrix
             case 2:{
                 int matrixdicari;
                 int k=1;
